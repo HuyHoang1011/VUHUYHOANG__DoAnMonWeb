@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header .navbar .navbar-brand img {
+  height: 50px !important;
+  width: 50px !important;
+}
+header .item {
+  margin-right: 30px;
+  text-decoration: none;
+}
+header .item a {
+  color: black;
+}
+
+section .carousel-control-prev {
+  top: 300px !important;
+  bottom: 300px !important;
+  width: 40px;
+  left: 30px;
+  height: 40px;
+  opacity: 1;
+  background-color: #17a2b8;
+}
+section .carousel-control-next {
+  top: 300px !important;
+  bottom: 300px !important;
+  width: 40px;
+  height: 40px;
+  right: 30px;
+  opacity: 1;
+  background-color: #17a2b8;
+}
+section .san_pham_moi, section .san_pham_ban_chay {
+  margin-top: 50px;
+  text-align: center;
+}
+section .san_pham_moi h1, section .san_pham_ban_chay h1 {
+  margin-bottom: 25px;
+}
+section .san_pham_moi .card, section .san_pham_ban_chay .card {
+  border: 0.5px solid black;
+  border-color: black !important;
+}
+section .san_pham_moi .card .card-text, section .san_pham_ban_chay .card .card-text {
+  font-weight: 700 !important;
+}
+section .crs {
+  margin-top: 50px;
+  background-image: url(../img/bg_caulong_home.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+section .crs .crs__content {
+  color: white;
+  position: absolute;
+  top: 200px;
+  right: 50px;
+  text-align: center;
+}
+section .crs .crs__content p {
+  font-weight: 700;
+}
+section .bg {
+  background-color: #f6f6f6;
+  height: 100px;
+}
+section .crs__SPM {
+  text-align: center;
+  margin-top: 50px;
+  background-image: url(../img/crs_sanphamhot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  position: relative;
+}
+section .crs__SPM .crs__SPM__content {
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 40px;
+}
+section .news {
+  text-align: center;
+  margin-top: 50px;
+}
+section .news .card img {
+  display: block;
+  max-width: 350px !important;
+  max-height: 230px !important;
+  width: auto;
+  height: auto;
+}
+
+footer {
+  margin-top: 40px;
+  background-color: #f6f6f6;
+}
+footer .ft {
+  padding-top: 20px;
+}
+footer .ft .row .col ul li {
+  list-style: none;
+}
+footer .ft .row .col-4 {
+  padding: 20px;
+}
+footer .ft .row .col-4 ul li {
+  list-style: none;
+}
+footer .ft .row .final {
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-right: 0;
+}
+footer .ft .row .final .logo_ft {
+  color: #4267b2;
+  font-size: 32px;
+}
+footer .ft .row .final h6 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .ft .row .final .input-group input {
+  max-width: 340px !important;
+}/*# sourceMappingURL=style.css.map */
